@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="register.css"/>
+		<title>Register - ICR</title>
+		<link rel="shortcut icon" href="/website.files/icr.ico" type="image/x-icon">
+	</head>
+	<body>
+		<big>
+			<pre style="position:absolute;left:80px;top:80px;" id="fk1">最擅长的运动</pre>
+			<input type="text" style="position:absolute;left:80px;top:120px;" id="fk2">
+			<pre style="position:absolute;left:80px;top:140px;" id="fk3">每日运动时长</pre>
+			<input type="text" style="position:absolute;left:80px;top:180px;" id="fk4">
+			<pre style="position:absolute;left:80px;top:140px;" id="fk5">是否在健身</pre>
+			<input type="text" style="position:absolute;left:80px;top:180px;" id="fk6">
+			<pre style="position:absolute;left:80px;top:140px;" id="fk7">对自己的身材是否自信?(y/n)</pre>
+			<input type="text" style="position:absolute;left:80px;top:180px;" id="fk8">
+			<pre style="position:absolute;left:80px;top:140px;" id="fk9">如果一个人的品质是十分，你认为身材占几分?</pre>
+			<input type="text" style="position:absolute;left:80px;top:180px;" id="fk10">
+			<input type="submit"  onclick="fkpps()" style="position:absolute;left:80px;top:220px;" id="fk11">
+		</big>
+		<script>
+			var w=window.innerWidth,h=window.innerHeight;
+			for(var i=1;i<=11;i++){
+				document.getElementById("fk"+i).style.position="absolute";
+				document.getElementById("fk"+i).style.left=w/2-80+"px";
+				document.getElementById("fk"+i).style.top=h/5+40*(i-1)+"px";
+			}
+			function fkpps(){
+				alert('好吧，我摊牌了')
+				alert('其实根本就没有什么调查')
+				alert('或者说，"调查"确实存在')
+				alert('但是"调查"的内容压根就不是这个')
+				alert('其实我们调查的是')
+				alert('八中最可爱的女生 awa')
+			}
+		</script>
+	</body>
+</html>
